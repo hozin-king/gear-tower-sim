@@ -5,6 +5,8 @@
     <application
         android:allowBackup="false"
         android:label="Gear Tower Sim"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         <activity
             android:name="com.hozinking.geartower.AndroidLauncher"
