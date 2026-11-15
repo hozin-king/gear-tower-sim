@@ -41,6 +41,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
+
+    // .so native libGDX disalin task copyAndroidNatives ke libs/ — beritahu AGP.
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 }
 
 configurations { natives }
